@@ -27,7 +27,7 @@
 html {
   background-image: url("../assets/img/cookie-1832169_1280.jpg");
   background-attachment: fixed;
-  background-size: 1343px 800px;
+  background-size: 1363px 800px;
 }
 .home-img {
   width: 1343px;
@@ -76,6 +76,7 @@ html {
   background-size: 1400px 800px;
   margin-right: 10px;
   margin-left: -63px;
+  margin-bottom: 0px;
   padding: 100px;
   padding-left: 150px;
   display: flexbox;

@@ -24,30 +24,7 @@ export default {
       this.activeIndex = -1;
     },
   },
-  // computed: {
-  //   // Chuyển các đối tượng product thành chuỗi để tiện cho tìm kiếm.
-  //   productStrings() {
-  //     return this.products.map((product) => {
-  //       const { name, characteristics, origin, price } = product;
-  //       return [name, characteristics, origin, price].join("");
-  //     });
-  //   },
 
-  //   // Trả về các contact có chứa thông tin cần tìm kiếm.
-  //   filteredProducts() {
-  //     if (!this.searchText) return this.products;
-  //     return this.products.filter((_product, index) =>
-  //       this.productStrings[index].includes(this.searchText)
-  //     );
-  //   },
-  //   activeProduct() {
-  //     if (this.activeIndex < 0) return null;
-  //     return this.filteredProducts[this.activeIndex];
-  //   },
-  //   // filteredContactsCount() {
-  //   //   return this.filteredContacts.length;
-  //   // },
-  // },
   methods: {
     async retrieveContacts() {
       try {
